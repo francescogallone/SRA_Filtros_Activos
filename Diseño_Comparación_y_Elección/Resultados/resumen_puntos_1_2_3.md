@@ -13,4 +13,4 @@ Se comparan magnitud, fase continua, retardo de grupo y respuesta al escalon. Lo
 ## Punto 3: filtro elegido
 Se selecciona el pasabajos Butterworth de orden 3. Cumple sin rizado y permite una cascada RC + buffer + Sallen-Key de ganancia unitaria. El factor de calidad de la seccion de segundo orden es Q=1, no 0.707. Este ultimo corresponde a un Butterworth completo de segundo orden.
 
-La frecuencia caracteristica Butterworth es su corte a -3.0103 dB; en Chebyshev I la frecuencia de diseno es el borde de paso de rizado, no necesariamente el corte a -3 dB. Todos los resultados corresponden a filtros analogicos ideales.
+La frecuencia caracteristica Butterworth es su corte a -3.0103 dB; en Chebyshev I la frecuencia de diseno es el borde de paso de rizado, no necesariamente el corte a -3 dB. 
