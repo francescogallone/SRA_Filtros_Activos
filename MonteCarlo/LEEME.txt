@@ -1,0 +1,1 @@
+Analisis de tolerancias en Python, con seguidores ideales. Leer resultados/informe.md antes de usar los resultados. Confirmar R0=12k contra el montaje. Ejecutar: python montecarlo_filtro.py --out resultados
