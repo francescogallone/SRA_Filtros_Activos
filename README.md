@@ -30,7 +30,7 @@ La frecuencia de diseño no representa lo mismo en ambas aproximaciones: en Butt
 | [`MonteCarlo/resultados/`](MonteCarlo/resultados/) | Valores de los componentes por corrida, histogramas, estadísticas y porcentajes de cumplimiento. |
 | [`Informe_ButterworthO3.pdf`](Informe_ButterworthO3.pdf) | Desarrollo del trabajo, simulaciones, implementación y mediciones del prototipo. |
 
-Los nombres de las carpetas se indican tal como están guardados, incluida `Sensibilida/`.
+
 
 ## 1. Diseño, comparación y elección — Puntos 1, 2 y 3
 
@@ -59,7 +59,7 @@ Las frecuencias se ingresan en Hz y se convierten a rad/s para el cálculo de lo
 
 Se comparan la magnitud, la fase continua, el retardo de grupo y la respuesta al escalón unitario. También se calculan el tiempo de establecimiento y la variación del retardo en la banda seleccionada.
 
-El retardo de grupo se obtiene como **menos la derivada de la fase respecto de la frecuencia angular**; no se calcula dividiendo la fase por la frecuencia.
+El retardo de grupo se obtiene como _menos la derivada de la fase respecto de la frecuencia angular_; no se calcula dividiendo la fase por la frecuencia.
 
 ![Comparación de los filtros pasabajos](Diseño_Comparación_y_Elección/Resultados/figuras/comparacion_LP.png)
 
@@ -133,8 +133,6 @@ El 100 % de cumplimiento en una muestra finita no garantiza todas las combinacio
 ### Correspondencia con el informe
 
 El análisis de sensibilidad y el estudio estadístico del informe emplean **R₀ = 10 kΩ, C₀ = 12 nF y capacitor de realimentación de 27 nF**. El Monte Carlo publicado en esta carpeta conserva los reemplazos indicados en la tabla anterior.
-
-Por eso el **75,8 % del script subido y el 68,86 % del informe corresponden a configuraciones distintas**. No deben presentarse como resultados del mismo ensayo. Para reproducir el porcentaje del informe es necesario utilizar su configuración y su conjunto de muestras; cambiar solamente R₀ con la opción `--r0` no actualiza los capacitores ni el resto del análisis.
 
 ## Cómo ejecutar los programas
 
