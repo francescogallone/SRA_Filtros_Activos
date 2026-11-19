@@ -1,0 +1,322 @@
+{
+  "versiones": {
+    "Python": "3.12.14",
+    "NumPy": "2.3.5",
+    "SciPy": "1.17.0",
+    "Matplotlib": "3.10.8"
+  },
+  "Ap_dB": 1.0,
+  "As_dB": 24.0,
+  "filtros": [
+    {
+      "tipo": "Pasabajos",
+      "familia": "Butterworth",
+      "orden": 3,
+      "wn_rad_s": 7870.169558339098,
+      "fn_Hz": 1252.5763881810262,
+      "ceros": [],
+      "polos": [
+        [
+          -3935.08477916955,
+          6815.766769612615
+        ],
+        [
+          -7870.169558339098,
+          -0.0
+        ],
+        [
+          -3935.08477916955,
+          -6815.766769612615
+        ]
+      ],
+      "k": 487474909432.4718,
+      "numerador": [
+        487474909432.4718
+      ],
+      "denominador": [
+        1.0,
+        15740.339116678198,
+        123879137.75401491,
+        487474909432.4718
+      ],
+      "sos": [
+        [
+          0.0,
+          0.0,
+          487474909432.4718,
+          0.0,
+          1.0,
+          7870.169558339098
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          7870.1695583391,
+          61939568.87700744
+        ]
+      ],
+      "estable": true,
+      "atenuacion_fp_dB": 1.000000000000004,
+      "atenuacion_fs_dB": 30.259439266746135,
+      "max_atenuacion_paso_malla_dB": 1.000000000000004,
+      "min_atenuacion_rechazo_malla_dB": 30.259439266746135,
+      "Q_par_complejo": 0.9999999999999998
+    },
+    {
+      "tipo": "Pasabajos",
+      "familia": "Chebyshev I",
+      "orden": 3,
+      "wn_rad_s": 6283.185307179586,
+      "fn_Hz": 999.9999999999999,
+      "ceros": [],
+      "polos": [
+        [
+          -1552.4827421070065,
+          6069.548681482695
+        ],
+        [
+          -3104.965484214012,
+          -0.0
+        ],
+        [
+          -1552.4827421070065,
+          -6069.548681482695
+        ]
+      ],
+      "k": 121868727358.11795,
+      "numerador": [
+        121868727358.11795
+      ],
+      "denominador": [
+        1.0,
+        6209.930968428025,
+        48890434.519588776,
+        121868727358.11792
+      ],
+      "sos": [
+        [
+          0.0,
+          0.0,
+          121868727358.11795,
+          0.0,
+          1.0,
+          3104.965484214012
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          3104.965484214013,
+          39249623.86142842
+        ]
+      ],
+      "estable": true,
+      "atenuacion_fp_dB": 1.000000000000004,
+      "atenuacion_fs_dB": 41.879825001817004,
+      "max_atenuacion_paso_malla_dB": 1.000000000000004,
+      "min_atenuacion_rechazo_malla_dB": 41.879825001817004,
+      "Q_par_complejo": 2.017720343663899
+    },
+    {
+      "tipo": "Pasaaltos",
+      "familia": "Butterworth",
+      "orden": 3,
+      "wn_rad_s": 20064.837135574424,
+      "fn_Hz": 3193.418012460496,
+      "ceros": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "polos": [
+        [
+          -10032.418567787214,
+          -17376.658682204838
+        ],
+        [
+          -20064.837135574424,
+          -0.0
+        ],
+        [
+          -10032.418567787214,
+          17376.658682204838
+        ]
+      ],
+      "k": 1.0,
+      "numerador": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "denominador": [
+        1.0,
+        40129.674271148855,
+        805195378.5542529,
+        8078057066504.14
+      ],
+      "sos": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          20064.837135574424
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          20064.837135574428,
+          402597689.2771264
+        ]
+      ],
+      "estable": true,
+      "atenuacion_fp_dB": 1.0000000000000007,
+      "atenuacion_fs_dB": 30.259439266746135,
+      "max_atenuacion_paso_malla_dB": 1.0000000000000007,
+      "min_atenuacion_rechazo_malla_dB": 30.259439266746135,
+      "Q_par_complejo": 0.9999999999999998
+    },
+    {
+      "tipo": "Pasaaltos",
+      "familia": "Chebyshev I",
+      "orden": 3,
+      "wn_rad_s": 25132.741228718343,
+      "fn_Hz": 3999.9999999999995,
+      "ceros": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "polos": [
+        [
+          -6246.129872005129,
+          -24419.717076884157
+        ],
+        [
+          -50858.430220973554,
+          -0.0
+        ],
+        [
+          -6246.129872005129,
+          24419.717076884157
+        ]
+      ],
+      "k": 0.9999999999999999,
+      "numerador": [
+        0.9999999999999999,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "denominador": [
+        1.0,
+        63350.68996498381,
+        1270673440.9860451,
+        32312228266016.566
+      ],
+      "sos": [
+        [
+          0.0,
+          0.9999999999999999,
+          0.0,
+          0.0,
+          1.0,
+          50858.430220973554
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          12492.259744010258,
+          635336720.4930226
+        ]
+      ],
+      "estable": true,
+      "atenuacion_fp_dB": 1.000000000000005,
+      "atenuacion_fs_dB": 41.87982500181701,
+      "max_atenuacion_paso_malla_dB": 1.000000000000005,
+      "min_atenuacion_rechazo_malla_dB": 41.87982500181701,
+      "Q_par_complejo": 2.017720343663899
+    }
+  ],
+  "temporales": [
+    {
+      "tipo": "Pasabajos",
+      "familia": "Butterworth",
+      "ymax": 1.0814649397123837,
+      "ymin": 0.0,
+      "t2pct_s": 0.0008439999999999999,
+      "variacion_tau_s": 9.406580505755025e-05,
+      "sobreimpulso_pct": 8.146493971238367
+    },
+    {
+      "tipo": "Pasabajos",
+      "familia": "Chebyshev I",
+      "ymax": 1.0636421097290427,
+      "ymin": 0.0,
+      "t2pct_s": 0.001903,
+      "variacion_tau_s": 0.00040639797812082855,
+      "sobreimpulso_pct": 6.364210972904272
+    },
+    {
+      "tipo": "Pasaaltos",
+      "familia": "Butterworth",
+      "ymax": 1.0,
+      "ymin": -0.30889255732714105,
+      "t2pct_s": 0.000334,
+      "variacion_tau_s": 8.641012340977478e-05,
+      "sobreimpulso_pct": null
+    },
+    {
+      "tipo": "Pasaaltos",
+      "familia": "Chebyshev I",
+      "ymax": 0.9999999999999999,
+      "ymin": -0.30440291790389995,
+      "t2pct_s": 0.000479,
+      "variacion_tau_s": 0.000175370073487683,
+      "sobreimpulso_pct": null
+    }
+  ],
+  "seleccion": {
+    "tipo": "Pasabajos",
+    "familia": "Butterworth",
+    "orden": 3,
+    "motivos": [
+      "Cumple Ap=1 dB y As=24 dB.",
+      "No presenta rizado en banda de paso.",
+      "Se implementa como RC + buffer + Sallen-Key de ganancia unitaria.",
+      "El par complejo tiene Q=1; menor que el del Chebyshev estudiado."
+    ],
+    "omega_c_rad_s": 7870.169558339098,
+    "Q_segundo_orden": 0.9999999999999998,
+    "etapa_1": "wc/(s+wc)",
+    "etapa_2": "wc^2/(s^2+wc*s+wc^2)",
+    "alcance": "Seleccion y propuesta de topologia. No dimensiona ni simula el circuito real."
+  }
+}
